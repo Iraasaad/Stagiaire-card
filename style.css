@@ -1,0 +1,254 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+#container{
+    
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#title{
+    display: flex;
+    width: 818px;
+    height: 50px;
+    justify-content: space-between;
+    text-align: center;
+}
+
+ 
+
+#titre{
+    background-color: green;
+    width: 743px;
+    border-radius: 5px;
+    color: white;
+    padding-top: 5px;
+    display: block;
+}
+
+#add{
+    width: 60px;
+    font-size: 30px;
+    color: white;
+    background-color: green;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    
+}
+.h1, .h11{
+    display: flex;
+    margin-top: 15px;
+}
+.bv{
+    background-color: rgb(185, 195, 218);
+    color: white;
+    width: 160px;
+    height: 25px;
+    text-align: center;
+    padding-top: 3px;
+    border-radius: 5px;
+}
+.bo{
+    background-color: rgb(185, 195, 218);
+    color: white;
+    width: 60px;
+    height: 25px;
+    text-align: center;
+    padding-top: 3px;
+    border-radius: 5px;
+    margin: 0px 3px;
+}
+.bor{
+    background-color: rgb(185, 195, 218);
+    color: white;
+    width: 160px;
+    height: 25px;
+    text-align: center;
+    padding-top: 3px;
+    border-radius: 5px;
+    margin: 0px 3px;
+}
+.bord{
+    background-color: rgb(185, 195, 218);
+    color: white;
+    width: 160px;
+    height: 25px;
+    text-align: center;
+    padding-top: 3px;
+    border-radius: 5px;
+    margin: 0px 3px;
+}
+
+
+.card{
+    width:200px ;
+    background-color: #BDD7EE;
+    height: 300px;
+    margin-top: 10px;
+    border-radius: 5px;
+    margin-left: 8px;
+    display: block;
+}
+#change, #delete{
+    width: 22px;
+    height: 22px;
+    border: none;
+    border-radius: 50%;
+    color: white;
+    cursor: pointer;
+}
+.filter{
+    padding-top: 5px;
+    padding-left: 10px;
+}
+#change{
+    background-color: grey;
+}
+#delete{
+    background-color: rgb(210, 100, 100);
+}
+.image{
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    background-color: rgb(208, 240, 240);
+    display: block;
+    margin: 0px auto;
+}
+.image img{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.p1{
+    color: #2A457F;
+    padding-top: 20px;
+    font-size: 23px ;
+    text-align: center;
+}
+.p2{
+    font-size: 18px;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.moyenne span{
+    background-color: #2A457F;
+    color: white;
+    padding-left: 5px;
+    
+}
+.moyenne{
+    text-align: center;
+    font-size: 17px;
+    padding-top: 3px;
+    background-color: #9ab1c7;
+    width: 170px;
+    height: 25px;
+    display: block;
+    margin: 0px auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.add{
+    width: 818px;
+    margin-top: 50px;
+}
+.add h1{
+    color: green;
+    text-align: center;
+}
+
+#nom, #prenom, #genre, #note1, #note2, #note3, #class{
+    width: 260px;
+    height: 45px;
+    margin-left: 3px;
+    margin-right: 3px;
+    border-radius: 7px;
+    border: 1px solid black;
+    margin-top: 25px;
+    padding-left: 5px;
+}
+
+#specialite{
+    width: 530px;
+    height:45px ;
+    margin-left: 3px;
+    margin-right: 3px;
+    border-radius: 7px;
+    padding-left: 5px;
+}
+
+.add button{
+    text-align: center;
+    display: block; 
+    margin: 0px auto;
+    width: 340px;
+    height: 50px;
+    background-color: rgb(8, 140, 8);
+    border: none;
+    border-radius: 8px;
+    color: white;
+    margin-top: 30px;
+}
+
+#ajouterlestagiaire{
+    cursor: pointer;
+}
+#formulaire{
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+
+
+#cards{
+    display: flex;
+    background-color: red;
+}
+
+
+
+
+
+
+
+
+
+
+
+#warning{
+    text-align: center;
+    margin-top: 200px;
+    display: none;
+}
+#sure{
+    display: block;
+    margin: 0px auto;
+    width: 500px;
+}
+#annuler, #supp{
+    width: 150px;
+    margin-top: 20px;
+    height: 30px;
+    cursor: pointer;
+}

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div id="container">
+      <div id="title">
+        <h1 id="titre">Listes des stagiaires</h1>
+        <button id="add" onclick="afficherFormulaire()">+</button>
+      </div>
+      <div class="h1" id="h1">
+        <div class="bv">Developpement Digital</div>
+        <div class="bo">UI\UX</div>
+        <div class="bor">Infrastructure digital</div>
+        <div class="bord">Intelligence Artificielle</div>
+      </div>
+
+      <div id="ccontainer" style="display: flex; flex-wrap: wrap"></div>
+
+      <!-- <div class="card" id="card">
+            <div class="filter">
+                <button id="delete"  onclick="deleteCard(this)">-</button>
+                <button id="change" >+</button>
+            </div>
+            <div class="image">
+                <img src="./assets/cara3.png" alt="" width="120px" height="120px">
+            </div>
+            <div class="information">
+                <p class="p1">Adili Tarik</p>
+                <p class="p2">Stagiaire - DD102</p>
+            </div>
+            <div class="moyenne">
+                <p><span>#1</span> Moyenne : 12,25</p>
+            </div>
+        </div> -->
+    </div>
+
+    <!--------------inp--------------->
+
+    <div class="add" id="formulaire">
+      <h1>Formulaire d'inscription</h1>
+      <div class="npg">
+        <input type="text" id="nom" placeholder="Nom..." />
+        <input type="text" name="" id="prenom" placeholder="Prenom..." />
+        <select name="genre" id="genre">
+          <option value="" disabled selected>Genre</option>
+          <option value="Homme">Homme</option>
+          <option value="Femme">Femme</option>
+        </select>
+      </div>
+      <div class="sc">
+        <select name="" id="specialite">
+          <option value="" disabled selected>Specialite</option>
+          <option value="Developpement Digital">Developpement Digital</option>
+          <option value="UI\UX">UI\UX</option>
+          <option value="Infrastructure digital">Infrastructure digital</option>
+          <option value="Intelligence Artificielle">
+            Intelligence Artificielle
+          </option>
+        </select>
+        <input type="text" id="class" placeholder="Class..." />
+      </div>
+      <div class="notes">
+        <input type="text" id="note1" placeholder="Note M101..." />
+        <input type="text" id="note2" placeholder="Note M102..." />
+        <input type="text" id="note3" placeholder="Note M103..." />
+      </div>
+
+      <button onclick="addPerson()" id="ajouterlestagiaire">
+        Ajouter le Stagiaire
+      </button>
+      <button id="annuler" onclick="cancelAdd()">Annuler</button>
+    </div>
+
+    <!--------------inp-------------->
+    <div id="warning"></div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
